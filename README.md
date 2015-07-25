@@ -17,7 +17,9 @@ update virus databases
 
 # Notice:
 
-Dont' wary about this `LibClamAV Warning: Cannot dlopen libclamunrar_iface: file not found - unrar support unavailable`
+Dont' wary about this:
+
+   ```LibClamAV Warning: Cannot dlopen libclamunrar_iface: file not found - unrar support unavailable```
 
 # LICENSE
 MIT
