@@ -15,7 +15,7 @@ update virus databases
 * other
     * `data` : this will be mounted as /var/lib/clamav when the container runs.
 
-# Notice:
+# Notice
 
 Dont' wary about this:
 
