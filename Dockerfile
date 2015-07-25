@@ -2,7 +2,7 @@ FROM alpine:latest
 MAINTAINER ep@geneegroup.com
 
 RUN apk update  \
-    && apk add freshclam \
+    && apk add freshclam clamav-libunrar \
     && rm -rf /var/cache/apk/*
 
 ADD freshclam.conf /etc/clamav/freshclam.conf
