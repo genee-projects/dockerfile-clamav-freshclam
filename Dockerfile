@@ -1,9 +1,9 @@
-FROM ubuntu:14.04
+FROM alpine:latest
 MAINTAINER ep@geneegroup.com
 
-RUN apt-get update  \
-    && apt-get install -y clamav clamav-freshclam \
-    && rm -rf /var/lib/apt/lists/*
+RUN apk update  \
+    && apk add freshclam \
+    && rm -rf /var/cache/apk/*
 
 ADD freshclam.conf /etc/clamav/freshclam.conf
 
