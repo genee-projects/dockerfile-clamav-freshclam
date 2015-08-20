@@ -1,5 +1,4 @@
-FROM alpine:latest
-MAINTAINER ep@geneegroup.com
+FROM alpine:3.2
 
 RUN apk update  \
     && apk add freshclam clamav-libunrar \
