@@ -21,6 +21,6 @@ docker run -it --rm \
        ${IMAGE_NAME}
 
 #再替换
-rm -rf "$rel_path/data" && mv "$rel_path/tmp" "$rel_path/data"
+rm -rf "$rel_path/data/*" && mv "$rel_path/tmp/*" "$rel_path/data/*"
 
 echo "===更新结束==="
